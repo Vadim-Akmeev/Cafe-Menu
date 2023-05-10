@@ -29,6 +29,8 @@ h1, h2 {
 
   h1 {
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
   }
 
   h2 {
@@ -41,6 +43,9 @@ h1, h2 {
 
 .item p{
     display:inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .flavor, .dessert {
@@ -52,3 +57,31 @@ h1, h2 {
     text-align: right;
     width: 25%;
 }
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color:brown;
+  }
+
+  a:active {
+    color: brown;
+  }
+
+
